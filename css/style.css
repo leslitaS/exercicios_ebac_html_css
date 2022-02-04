@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    
+}
+.container{
+    width: 960px;
+    margin: auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav>ul>li:hover{
+    background-color: rgb(204, 197, 211);
+   
+}
+nav>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 19px 13px;
+}
